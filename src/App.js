@@ -1,4 +1,5 @@
 import { useState } from "react";
+import SingleCard from "./components/SingleCard";
 
 const cardImages = [
   { "src": "/img/bulbasaur.png" },
@@ -34,14 +35,9 @@ function App() {
       >
         New Game
       </button>
-      <div className="grid grid-rows-3 grid-flow-col gap-3">
+      <div className="grid grid-rows-3 grid-flow-col gap-3 mt-10">
         {cards.map((card) => (
-          <div key={card.id}>
-            <div>
-              <img className="" src={card.src} alt="card front" />
-              <img className="" src="/img/cover-illustration-daniel-mackey.png" alt="card back" />
-            </div>
-          </div>
+          <SingleCard key={card.id} card={card} />
         ))}
       </div>
     </div>
