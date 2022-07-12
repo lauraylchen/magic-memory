@@ -2,8 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-
+    <div className='text-center'>
     </div>
   );
 }
