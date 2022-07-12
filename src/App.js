@@ -34,7 +34,7 @@ function App() {
       >
         New Game
       </button>
-      <div className="">
+      <div className="grid grid-rows-3 grid-flow-col gap-3">
         {cards.map((card) => (
           <div key={card.id}>
             <div>
