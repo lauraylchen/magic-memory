@@ -61,6 +61,11 @@ function App() {
     setDisabled(false)
   }
 
+  // Start game from automatically
+  useEffect(() => {
+    shuffleCards()
+  }, [])
+
   return (
     <div className='max-w-sm sm:max-w-xl mx-auto my-10'>
       <h1 className="font-black text-4xl pb-3">Pokemon Match</h1>
