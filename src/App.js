@@ -59,7 +59,7 @@ function App() {
   }
 
   return (
-    <div className='max-w-xl mx-auto my-10'>
+    <div className='max-w-sm sm:max-w-xl mx-auto my-10'>
       <h1 className="font-black text-4xl py-3">Pokemon Match</h1>
       <button
         className="btn btn-sm hover:bg-blue hover:text-yellow"

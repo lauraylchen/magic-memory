@@ -2,6 +2,8 @@
   position: absolute;
   transform: rotateY(90deg);
   height: 100%;
+  background-color: #DB5400;
+  padding: 20px;
 }
 
 .flip .front-card {
