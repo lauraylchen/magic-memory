@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import SingleCard from "./components/SingleCard";
 
 const cardImages = [
-  { "src": "/img/bulbasaur.png" },
-  { "src": "/img/charmander.png" },
-  { "src": "/img/eevee.png" },
-  { "src": "/img/jigglypuff.png" },
-  { "src": "/img/pikachu.png" },
-  { "src": "/img/squirtle.png" }
+  { "src": "/img/bulbasaur.png", matched: false },
+  { "src": "/img/charmander.png", matched: false },
+  { "src": "/img/eevee.png", matched: false },
+  { "src": "/img/jigglypuff.png", matched: false },
+  { "src": "/img/pikachu.png", matched: false },
+  { "src": "/img/squirtle.png", matched: false }
 ]
 
 function App() {
