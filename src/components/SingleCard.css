@@ -4,8 +4,20 @@
   height: 100%;
   background-color: #DB5400;
   padding: 20px;
+  transition: all ease-in 0.2s;
 }
 
 .flip .front-card {
   transform: rotateY(0deg);
+  transition-delay: 0.2s;
+}
+
+.back-card {
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+
+.flip .back-card {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
 }
